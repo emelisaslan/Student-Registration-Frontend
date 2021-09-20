@@ -1,0 +1,8 @@
+.p-fileupload-files {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.p-fileupload-files .p-fileupload-row:not(:last-child) {
+    display: none;
+}
